@@ -1,0 +1,22 @@
+node_modules/
+!.mvn/wrapper/maven-wrapper.jar
+
+#compiled class file
+*.class
+
+# intelliJ
+.idea
+*.iws
+*.iml
+*.ipr
+.mvn
+mvnw*
+.idea/
+
+# Maven
+target/
+
+# log file
+*.log
+logs/
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bjpowernode.dao.ProvinceDao">
+    <!-- 使用insert, update,delete,select标签写sql -->
+    <select id="selectProvinceList" resultType="com.bjpowernode.domain.Province">
+        select id,name from province order by id
+    </select>
+</mapper>
